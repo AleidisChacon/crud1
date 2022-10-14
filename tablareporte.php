@@ -1,7 +1,7 @@
 <?php include ("vista/cabecera.php"); ?>
 
 <?php
-  $conexion = mysqli_connect("bmngmuaitnqhhyyxndit-postgresql.services.clever-cloud.com", "u6zmvje9lanojfhljp3j", "ISBsQ7vYwfAucHyibbt0", "bmngmuaitnqhhyyxndit") or
+  $conexion = mysqli_connect("bsq7tbpi6zzsfsihswst-mysql.services.clever-cloud.com", "ueld9p2yg2dvdtqt", "CWJnH9yW3tMnJYjTecKD", "bsq7tbpi6zzsfsihswst") or
   die("Problemas con la conexión");
 
     if ($_POST){
