@@ -9,7 +9,7 @@ $fecha=(isset($_POST['fecha']))?$_POST['fecha']:"";
 $hora=(isset($_POST['hora']))?$_POST['hora']:"";
 $observacion=(isset($_POST['observacion']))?$_POST['observacion']:"";
 
-$conexion = mysqli_connect("localhost", "root", "", "bdproyecto") or
+$conexion = mysqli_connect("bmngmuaitnqhhyyxndit-postgresql.services.clever-cloud.com", "u6zmvje9lanojfhljp3j", "ISBsQ7vYwfAucHyibbt0", "bmngmuaitnqhhyyxndit") or
 die("Problemas con la conexión");
  
     $respuesta =mysqli_query($conexion," UPDATE reportes SET `nombre`='$nombre',`apellido`='$apellido',`area`='$area',`tipo`='$tipo',

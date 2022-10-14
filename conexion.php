@@ -1,7 +1,7 @@
 <?php include ("vista/cabecera.php"); ?>
 
 <?php
-  $conexion = mysqli_connect("localhost", "root", "", "bdproyecto") or
+  $conexion = mysqli_connect("bmngmuaitnqhhyyxndit-postgresql.services.clever-cloud.com", "u6zmvje9lanojfhljp3j", "ISBsQ7vYwfAucHyibbt0", "bmngmuaitnqhhyyxndit") or
     die("Problemas con la conexión");
 
   mysqli_query($conexion, "insert into reportes(numsituacion, nombre, apellido, area, tipo, nivelgravedad, fecha, hora, observacion) values
